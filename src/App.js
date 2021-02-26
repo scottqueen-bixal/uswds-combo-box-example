@@ -5,7 +5,7 @@ const { comboBox } = USWDS;
 
 const App = () => {
   const ref = document.body;
-  const [page, setPage] = React.useState(true);
+  const [page, setPage] = React.useState(1);
 
   React.useEffect(() => {
     // initialize
