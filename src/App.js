@@ -21,15 +21,15 @@ const App = () => {
 
   function page1() {
     return (
-      <div class="grid-container">
-        <div class="grid-row">
-          <div class="grid-col">
-            <form class="usa-form">
-              <label class="usa-label" for="fruit">
+      <div className="grid-container">
+        <div className="grid-row">
+          <div className="grid-col">
+            <form className="usa-form">
+              <label className="usa-label" htmlFor="fruit">
                 Select a fruit
               </label>
-              <div class="usa-combo-box">
-                <select class="usa-select" name="fruit" id="fruit">
+              <div className="usa-combo-box">
+                <select className="usa-select" name="fruit" id="fruit">
                   <option value>Select a fruit</option>
                   <option value="apple">Apple</option>
                   <option value="apricot">Apricot</option>
@@ -54,9 +54,9 @@ const App = () => {
 
   function page2() {
     return (
-      <div class="grid-container">
-        <div class="grid-row">
-          <div class="grid-col">
+      <div className="grid-container">
+        <div className="grid-row">
+          <div className="grid-col">
             <button className="usa-button" onClick={() => setPage(1)}>
               Go to page 1
             </button>
